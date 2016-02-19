@@ -13,4 +13,4 @@
     [self.view addSubview:pick];
 </code></pre>
 
-![](https://github.com/NewUnsigned/ZPAreaPickerView/blob/master/ZPAreaPickerView/Model/2016-02-19%2010_56_01.gif)
+![](https://github.com/NewUnsigned/ZPAreaPickerView/blob/master/ZPAreaPickerView/2016-02-19%2010_56_01.gif)
