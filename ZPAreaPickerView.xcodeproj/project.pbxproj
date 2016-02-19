@@ -32,7 +32,7 @@
 		75601B601C76B420000C9C90 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75601B581C76B420000C9C90 /* SVProgressHUD.bundle */; };
 		75601B611C76B420000C9C90 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B5A1C76B420000C9C90 /* SVProgressHUD.m */; };
 		75601B621C76B420000C9C90 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B5C1C76B420000C9C90 /* SVRadialGradientLayer.m */; };
-		75601B661C76BC11000C9C90 /* 2016-02-19 10_56_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */; };
+		75601B681C76BE91000C9C90 /* 2016-02-19 10_56_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75601B671C76BE91000C9C90 /* 2016-02-19 10_56_01.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,7 @@
 		75601B5A1C76B420000C9C90 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		75601B5B1C76B420000C9C90 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		75601B5C1C76B420000C9C90 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "2016-02-19 10_56_01.gif"; path = "Model/2016-02-19 10_56_01.gif"; sourceTree = "<group>"; };
+		75601B671C76BE91000C9C90 /* 2016-02-19 10_56_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2016-02-19 10_56_01.gif"; sourceTree = "<group>"; };
 		CA34F7CCF0883E3B751A84C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED1606946A42CCB49978904A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,7 +172,7 @@
 				75601AAB1C75C771000C9C90 /* ViewController.h */,
 				75601AAC1C75C771000C9C90 /* ViewController.m */,
 				75601AAE1C75C771000C9C90 /* Main.storyboard */,
-				75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */,
+				75601B671C76BE91000C9C90 /* 2016-02-19 10_56_01.gif */,
 				75601AA51C75C771000C9C90 /* Supporting Files */,
 			);
 			path = ZPAreaPickerView;
@@ -390,7 +390,7 @@
 				75601AB51C75C771000C9C90 /* LaunchScreen.storyboard in Resources */,
 				75601B601C76B420000C9C90 /* SVProgressHUD.bundle in Resources */,
 				75601AB21C75C771000C9C90 /* Assets.xcassets in Resources */,
-				75601B661C76BC11000C9C90 /* 2016-02-19 10_56_01.gif in Resources */,
+				75601B681C76BE91000C9C90 /* 2016-02-19 10_56_01.gif in Resources */,
 				75601AB01C75C771000C9C90 /* Main.storyboard in Resources */,
 				75601B5D1C76B420000C9C90 /* LICENSE.txt in Resources */,
 				75601B4E1C76AF60000C9C90 /* cityData.plist in Resources */,
