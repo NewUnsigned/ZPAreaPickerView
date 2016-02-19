@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD16934EC44037EB43A85A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B87CD05F8900A681CEE7A64 /* libPods.a */; };
+		75601AA71C75C771000C9C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601AA61C75C771000C9C90 /* main.m */; };
+		75601AAA1C75C771000C9C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601AA91C75C771000C9C90 /* AppDelegate.m */; };
+		75601AAD1C75C771000C9C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601AAC1C75C771000C9C90 /* ViewController.m */; };
+		75601AB01C75C771000C9C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75601AAE1C75C771000C9C90 /* Main.storyboard */; };
+		75601AB21C75C771000C9C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75601AB11C75C771000C9C90 /* Assets.xcassets */; };
+		75601AB51C75C771000C9C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75601AB31C75C771000C9C90 /* LaunchScreen.storyboard */; };
+		75601AC01C75C771000C9C90 /* ZPAreaPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601ABF1C75C771000C9C90 /* ZPAreaPickerViewTests.m */; };
+		75601ACB1C75C771000C9C90 /* ZPAreaPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601ACA1C75C771000C9C90 /* ZPAreaPickerViewUITests.m */; };
+		75601ADA1C75C7A6000C9C90 /* ZPAreaSearchPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601AD91C75C7A6000C9C90 /* ZPAreaSearchPickView.m */; };
+		75601ADD1C75C7C7000C9C90 /* CALayer+SLPopAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601ADC1C75C7C7000C9C90 /* CALayer+SLPopAddition.m */; };
+		75601B2C1C75C801000C9C90 /* ZPSearchReuseHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B2B1C75C801000C9C90 /* ZPSearchReuseHeaderView.m */; };
+		75601B3F1C75C84F000C9C90 /* ZPSearchAreaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B3C1C75C84F000C9C90 /* ZPSearchAreaItem.m */; };
+		75601B401C75C84F000C9C90 /* ZPSearchCityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B3E1C75C84F000C9C90 /* ZPSearchCityItem.m */; };
+		75601B431C75C960000C9C90 /* ZPSearchAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B421C75C960000C9C90 /* ZPSearchAreaCell.m */; };
+		75601B481C75C973000C9C90 /* IMQuickSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B451C75C973000C9C90 /* IMQuickSearch.m */; };
+		75601B491C75C973000C9C90 /* IMQuickSearchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B471C75C973000C9C90 /* IMQuickSearchFilter.m */; };
+		75601B4C1C75C9DF000C9C90 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B4B1C75C9DF000C9C90 /* UIView+Extension.m */; };
+		75601B4E1C76AF60000C9C90 /* cityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75601B4D1C76AF60000C9C90 /* cityData.plist */; };
+		75601B5D1C76B420000C9C90 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75601B531C76B420000C9C90 /* LICENSE.txt */; };
+		75601B5E1C76B420000C9C90 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75601B541C76B420000C9C90 /* README.md */; };
+		75601B5F1C76B420000C9C90 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B571C76B420000C9C90 /* SVIndefiniteAnimatedView.m */; };
+		75601B601C76B420000C9C90 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75601B581C76B420000C9C90 /* SVProgressHUD.bundle */; };
+		75601B611C76B420000C9C90 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B5A1C76B420000C9C90 /* SVProgressHUD.m */; };
+		75601B621C76B420000C9C90 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601B5C1C76B420000C9C90 /* SVRadialGradientLayer.m */; };
+		75601B661C76BC11000C9C90 /* 2016-02-19 10_56_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75601ABC1C75C771000C9C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75601A9A1C75C771000C9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75601AA11C75C771000C9C90;
+			remoteInfo = ZPAreaPickerView;
+		};
+		75601AC71C75C771000C9C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75601A9A1C75C771000C9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75601AA11C75C771000C9C90;
+			remoteInfo = ZPAreaPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B87CD05F8900A681CEE7A64 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75601AA21C75C771000C9C90 /* ZPAreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPAreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75601AA61C75C771000C9C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75601AA81C75C771000C9C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75601AA91C75C771000C9C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75601AAB1C75C771000C9C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75601AAC1C75C771000C9C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75601AAF1C75C771000C9C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75601AB11C75C771000C9C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75601AB41C75C771000C9C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75601AB61C75C771000C9C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75601ABB1C75C771000C9C90 /* ZPAreaPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPAreaPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75601ABF1C75C771000C9C90 /* ZPAreaPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAreaPickerViewTests.m; sourceTree = "<group>"; };
+		75601AC11C75C771000C9C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75601AC61C75C771000C9C90 /* ZPAreaPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPAreaPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75601ACA1C75C771000C9C90 /* ZPAreaPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAreaPickerViewUITests.m; sourceTree = "<group>"; };
+		75601ACC1C75C771000C9C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75601AD81C75C7A6000C9C90 /* ZPAreaSearchPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPAreaSearchPickView.h; sourceTree = "<group>"; };
+		75601AD91C75C7A6000C9C90 /* ZPAreaSearchPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPAreaSearchPickView.m; sourceTree = "<group>"; };
+		75601ADB1C75C7C7000C9C90 /* CALayer+SLPopAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SLPopAddition.h"; sourceTree = "<group>"; };
+		75601ADC1C75C7C7000C9C90 /* CALayer+SLPopAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SLPopAddition.m"; sourceTree = "<group>"; };
+		75601B2A1C75C801000C9C90 /* ZPSearchReuseHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSearchReuseHeaderView.h; sourceTree = "<group>"; };
+		75601B2B1C75C801000C9C90 /* ZPSearchReuseHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSearchReuseHeaderView.m; sourceTree = "<group>"; };
+		75601B3B1C75C84F000C9C90 /* ZPSearchAreaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSearchAreaItem.h; sourceTree = "<group>"; };
+		75601B3C1C75C84F000C9C90 /* ZPSearchAreaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSearchAreaItem.m; sourceTree = "<group>"; };
+		75601B3D1C75C84F000C9C90 /* ZPSearchCityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSearchCityItem.h; sourceTree = "<group>"; };
+		75601B3E1C75C84F000C9C90 /* ZPSearchCityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSearchCityItem.m; sourceTree = "<group>"; };
+		75601B411C75C960000C9C90 /* ZPSearchAreaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSearchAreaCell.h; sourceTree = "<group>"; };
+		75601B421C75C960000C9C90 /* ZPSearchAreaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSearchAreaCell.m; sourceTree = "<group>"; };
+		75601B441C75C973000C9C90 /* IMQuickSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMQuickSearch.h; sourceTree = "<group>"; };
+		75601B451C75C973000C9C90 /* IMQuickSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMQuickSearch.m; sourceTree = "<group>"; };
+		75601B461C75C973000C9C90 /* IMQuickSearchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMQuickSearchFilter.h; sourceTree = "<group>"; };
+		75601B471C75C973000C9C90 /* IMQuickSearchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMQuickSearchFilter.m; sourceTree = "<group>"; };
+		75601B4A1C75C9DF000C9C90 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		75601B4B1C75C9DF000C9C90 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		75601B4D1C76AF60000C9C90 /* cityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityData.plist; sourceTree = "<group>"; };
+		75601B531C76B420000C9C90 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		75601B541C76B420000C9C90 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75601B561C76B420000C9C90 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		75601B571C76B420000C9C90 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		75601B581C76B420000C9C90 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		75601B591C76B420000C9C90 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		75601B5A1C76B420000C9C90 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		75601B5B1C76B420000C9C90 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		75601B5C1C76B420000C9C90 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2016-02-19 10_56_01.gif"; sourceTree = "<group>"; };
+		CA34F7CCF0883E3B751A84C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1606946A42CCB49978904A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75601A9F1C75C771000C9C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD16934EC44037EB43A85A6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AB81C75C771000C9C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AC31C75C771000C9C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB2972317E3674D8DFA4213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F7CCF0883E3B751A84C8 /* Pods.debug.xcconfig */,
+				ED1606946A42CCB49978904A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75601A991C75C771000C9C90 = {
+			isa = PBXGroup;
+			children = (
+				75601AA41C75C771000C9C90 /* ZPAreaPickerView */,
+				75601ABE1C75C771000C9C90 /* ZPAreaPickerViewTests */,
+				75601AC91C75C771000C9C90 /* ZPAreaPickerViewUITests */,
+				75601AA31C75C771000C9C90 /* Products */,
+				5DB2972317E3674D8DFA4213 /* Pods */,
+				CF46535361FD21CC0FD1B5F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75601AA31C75C771000C9C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75601AA21C75C771000C9C90 /* ZPAreaPickerView.app */,
+				75601ABB1C75C771000C9C90 /* ZPAreaPickerViewTests.xctest */,
+				75601AC61C75C771000C9C90 /* ZPAreaPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75601AA41C75C771000C9C90 /* ZPAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				75601B641C76B8CF000C9C90 /* Category */,
+				75601B631C76B8B5000C9C90 /* ZPAreaSearchPickView */,
+				75601B521C76B420000C9C90 /* SVProgressHUD */,
+				75601B3A1C75C84F000C9C90 /* Model */,
+				75601AA81C75C771000C9C90 /* AppDelegate.h */,
+				75601AA91C75C771000C9C90 /* AppDelegate.m */,
+				75601AAB1C75C771000C9C90 /* ViewController.h */,
+				75601AAC1C75C771000C9C90 /* ViewController.m */,
+				75601AAE1C75C771000C9C90 /* Main.storyboard */,
+				75601AA51C75C771000C9C90 /* Supporting Files */,
+			);
+			path = ZPAreaPickerView;
+			sourceTree = "<group>";
+		};
+		75601AA51C75C771000C9C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75601B4D1C76AF60000C9C90 /* cityData.plist */,
+				75601AB11C75C771000C9C90 /* Assets.xcassets */,
+				75601AB31C75C771000C9C90 /* LaunchScreen.storyboard */,
+				75601AB61C75C771000C9C90 /* Info.plist */,
+				75601AA61C75C771000C9C90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75601ABE1C75C771000C9C90 /* ZPAreaPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				75601ABF1C75C771000C9C90 /* ZPAreaPickerViewTests.m */,
+				75601AC11C75C771000C9C90 /* Info.plist */,
+			);
+			path = ZPAreaPickerViewTests;
+			sourceTree = "<group>";
+		};
+		75601AC91C75C771000C9C90 /* ZPAreaPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75601ACA1C75C771000C9C90 /* ZPAreaPickerViewUITests.m */,
+				75601ACC1C75C771000C9C90 /* Info.plist */,
+			);
+			path = ZPAreaPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		75601B3A1C75C84F000C9C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75601B651C76BC11000C9C90 /* 2016-02-19 10_56_01.gif */,
+				75601B3B1C75C84F000C9C90 /* ZPSearchAreaItem.h */,
+				75601B3C1C75C84F000C9C90 /* ZPSearchAreaItem.m */,
+				75601B3D1C75C84F000C9C90 /* ZPSearchCityItem.h */,
+				75601B3E1C75C84F000C9C90 /* ZPSearchCityItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75601B521C76B420000C9C90 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				75601B531C76B420000C9C90 /* LICENSE.txt */,
+				75601B541C76B420000C9C90 /* README.md */,
+				75601B551C76B420000C9C90 /* SVProgressHUD */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		75601B551C76B420000C9C90 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				75601B561C76B420000C9C90 /* SVIndefiniteAnimatedView.h */,
+				75601B571C76B420000C9C90 /* SVIndefiniteAnimatedView.m */,
+				75601B581C76B420000C9C90 /* SVProgressHUD.bundle */,
+				75601B591C76B420000C9C90 /* SVProgressHUD.h */,
+				75601B5A1C76B420000C9C90 /* SVProgressHUD.m */,
+				75601B5B1C76B420000C9C90 /* SVRadialGradientLayer.h */,
+				75601B5C1C76B420000C9C90 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		75601B631C76B8B5000C9C90 /* ZPAreaSearchPickView */ = {
+			isa = PBXGroup;
+			children = (
+				75601AD81C75C7A6000C9C90 /* ZPAreaSearchPickView.h */,
+				75601AD91C75C7A6000C9C90 /* ZPAreaSearchPickView.m */,
+				75601B2A1C75C801000C9C90 /* ZPSearchReuseHeaderView.h */,
+				75601B2B1C75C801000C9C90 /* ZPSearchReuseHeaderView.m */,
+				75601B411C75C960000C9C90 /* ZPSearchAreaCell.h */,
+				75601B421C75C960000C9C90 /* ZPSearchAreaCell.m */,
+				75601B441C75C973000C9C90 /* IMQuickSearch.h */,
+				75601B451C75C973000C9C90 /* IMQuickSearch.m */,
+				75601B461C75C973000C9C90 /* IMQuickSearchFilter.h */,
+				75601B471C75C973000C9C90 /* IMQuickSearchFilter.m */,
+			);
+			name = ZPAreaSearchPickView;
+			sourceTree = "<group>";
+		};
+		75601B641C76B8CF000C9C90 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75601B4A1C75C9DF000C9C90 /* UIView+Extension.h */,
+				75601B4B1C75C9DF000C9C90 /* UIView+Extension.m */,
+				75601ADB1C75C7C7000C9C90 /* CALayer+SLPopAddition.h */,
+				75601ADC1C75C7C7000C9C90 /* CALayer+SLPopAddition.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CF46535361FD21CC0FD1B5F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B87CD05F8900A681CEE7A64 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75601AA11C75C771000C9C90 /* ZPAreaPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75601ACF1C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerView" */;
+			buildPhases = (
+				8B57C71F3E7486F85E0EAB7D /* Check Pods Manifest.lock */,
+				75601A9E1C75C771000C9C90 /* Sources */,
+				75601A9F1C75C771000C9C90 /* Frameworks */,
+				75601AA01C75C771000C9C90 /* Resources */,
+				D599658FC726855BD7A42E73 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPAreaPickerView;
+			productName = ZPAreaPickerView;
+			productReference = 75601AA21C75C771000C9C90 /* ZPAreaPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75601ABA1C75C771000C9C90 /* ZPAreaPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75601AD21C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerViewTests" */;
+			buildPhases = (
+				75601AB71C75C771000C9C90 /* Sources */,
+				75601AB81C75C771000C9C90 /* Frameworks */,
+				75601AB91C75C771000C9C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75601ABD1C75C771000C9C90 /* PBXTargetDependency */,
+			);
+			name = ZPAreaPickerViewTests;
+			productName = ZPAreaPickerViewTests;
+			productReference = 75601ABB1C75C771000C9C90 /* ZPAreaPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75601AC51C75C771000C9C90 /* ZPAreaPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75601AD51C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerViewUITests" */;
+			buildPhases = (
+				75601AC21C75C771000C9C90 /* Sources */,
+				75601AC31C75C771000C9C90 /* Frameworks */,
+				75601AC41C75C771000C9C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75601AC81C75C771000C9C90 /* PBXTargetDependency */,
+			);
+			name = ZPAreaPickerViewUITests;
+			productName = ZPAreaPickerViewUITests;
+			productReference = 75601AC61C75C771000C9C90 /* ZPAreaPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75601A9A1C75C771000C9C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "赵鹏";
+				TargetAttributes = {
+					75601AA11C75C771000C9C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9AN3SEHNKB;
+					};
+					75601ABA1C75C771000C9C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9AN3SEHNKB;
+						TestTargetID = 75601AA11C75C771000C9C90;
+					};
+					75601AC51C75C771000C9C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9AN3SEHNKB;
+						TestTargetID = 75601AA11C75C771000C9C90;
+					};
+				};
+			};
+			buildConfigurationList = 75601A9D1C75C771000C9C90 /* Build configuration list for PBXProject "ZPAreaPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75601A991C75C771000C9C90;
+			productRefGroup = 75601AA31C75C771000C9C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75601AA11C75C771000C9C90 /* ZPAreaPickerView */,
+				75601ABA1C75C771000C9C90 /* ZPAreaPickerViewTests */,
+				75601AC51C75C771000C9C90 /* ZPAreaPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75601AA01C75C771000C9C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75601AB51C75C771000C9C90 /* LaunchScreen.storyboard in Resources */,
+				75601B601C76B420000C9C90 /* SVProgressHUD.bundle in Resources */,
+				75601AB21C75C771000C9C90 /* Assets.xcassets in Resources */,
+				75601B661C76BC11000C9C90 /* 2016-02-19 10_56_01.gif in Resources */,
+				75601AB01C75C771000C9C90 /* Main.storyboard in Resources */,
+				75601B5D1C76B420000C9C90 /* LICENSE.txt in Resources */,
+				75601B4E1C76AF60000C9C90 /* cityData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AB91C75C771000C9C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AC41C75C771000C9C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B57C71F3E7486F85E0EAB7D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D599658FC726855BD7A42E73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75601A9E1C75C771000C9C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75601AAD1C75C771000C9C90 /* ViewController.m in Sources */,
+				75601B401C75C84F000C9C90 /* ZPSearchCityItem.m in Sources */,
+				75601B611C76B420000C9C90 /* SVProgressHUD.m in Sources */,
+				75601B621C76B420000C9C90 /* SVRadialGradientLayer.m in Sources */,
+				75601ADD1C75C7C7000C9C90 /* CALayer+SLPopAddition.m in Sources */,
+				75601B491C75C973000C9C90 /* IMQuickSearchFilter.m in Sources */,
+				75601B5E1C76B420000C9C90 /* README.md in Sources */,
+				75601B5F1C76B420000C9C90 /* SVIndefiniteAnimatedView.m in Sources */,
+				75601ADA1C75C7A6000C9C90 /* ZPAreaSearchPickView.m in Sources */,
+				75601B481C75C973000C9C90 /* IMQuickSearch.m in Sources */,
+				75601B4C1C75C9DF000C9C90 /* UIView+Extension.m in Sources */,
+				75601B2C1C75C801000C9C90 /* ZPSearchReuseHeaderView.m in Sources */,
+				75601B3F1C75C84F000C9C90 /* ZPSearchAreaItem.m in Sources */,
+				75601AAA1C75C771000C9C90 /* AppDelegate.m in Sources */,
+				75601AA71C75C771000C9C90 /* main.m in Sources */,
+				75601B431C75C960000C9C90 /* ZPSearchAreaCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AB71C75C771000C9C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75601AC01C75C771000C9C90 /* ZPAreaPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75601AC21C75C771000C9C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75601ACB1C75C771000C9C90 /* ZPAreaPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75601ABD1C75C771000C9C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75601AA11C75C771000C9C90 /* ZPAreaPickerView */;
+			targetProxy = 75601ABC1C75C771000C9C90 /* PBXContainerItemProxy */;
+		};
+		75601AC81C75C771000C9C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75601AA11C75C771000C9C90 /* ZPAreaPickerView */;
+			targetProxy = 75601AC71C75C771000C9C90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75601AAE1C75C771000C9C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75601AAF1C75C771000C9C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75601AB31C75C771000C9C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75601AB41C75C771000C9C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75601ACD1C75C771000C9C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75601ACE1C75C771000C9C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75601AD01C75C771000C9C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA34F7CCF0883E3B751A84C8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZPAreaPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75601AD11C75C771000C9C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1606946A42CCB49978904A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZPAreaPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75601AD31C75C771000C9C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZPAreaPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPAreaPickerView.app/ZPAreaPickerView";
+			};
+			name = Debug;
+		};
+		75601AD41C75C771000C9C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZPAreaPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPAreaPickerView.app/ZPAreaPickerView";
+			};
+			name = Release;
+		};
+		75601AD61C75C771000C9C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZPAreaPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZPAreaPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		75601AD71C75C771000C9C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZPAreaPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.ZPAreaPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZPAreaPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75601A9D1C75C771000C9C90 /* Build configuration list for PBXProject "ZPAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75601ACD1C75C771000C9C90 /* Debug */,
+				75601ACE1C75C771000C9C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75601ACF1C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75601AD01C75C771000C9C90 /* Debug */,
+				75601AD11C75C771000C9C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75601AD21C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75601AD31C75C771000C9C90 /* Debug */,
+				75601AD41C75C771000C9C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75601AD51C75C771000C9C90 /* Build configuration list for PBXNativeTarget "ZPAreaPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75601AD61C75C771000C9C90 /* Debug */,
+				75601AD71C75C771000C9C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75601A9A1C75C771000C9C90 /* Project object */;
+}
